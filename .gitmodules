@@ -1,0 +1,3 @@
+[submodule "test-britvic-brasil"]
+	path = test-britvic-brasil
+	url = git@github.com:erickfirmo/test-britvic-brasil.git
