@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # docker-test-britvic-brasil
 
 ### Uso
@@ -97,4 +96,3 @@ O projeto deve ser entregue via link de repositório no github.
 
 ## Observações
 Este é um projeto apenas de teste e não tem envolvimento com a marca Britvic Brasil.
->>>>>>> f2bc87e4b58d1c3414032be70d20e6855fbadd9e
