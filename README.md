@@ -24,7 +24,7 @@ Execute o comando na pasta raiz deste repositório para criar o virtual host:
 cp docker/nginx/sites/britvic.conf.example docker/nginx/sites/britvic.conf
 ```
 
-Podemos mudar o virtual host no arquivo `britvic.conf` na pasta docker/nginx/sites, alterando a variável `server_name`.
+Por padrão, podemos acessar o projeto em http://britvic.test/. Podemos mudar o virtual host no arquivo `britvic.conf` na pasta docker/nginx/sites, alterando a variável `server_name`.
 
 ```
 server_name seu-dominio-local.test;
