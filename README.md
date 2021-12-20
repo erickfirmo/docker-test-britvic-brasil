@@ -5,7 +5,7 @@
 Entre na pasta **docker** e digite o seguinte comando no terminal:
 
 ```sh
-p .env.example .env && docker-compose up -d nginx mysql phpmyadmin
+cp .env.example .env && docker-compose up -d nginx mysql phpmyadmin
 ```
 
 Acessando a workspace:
