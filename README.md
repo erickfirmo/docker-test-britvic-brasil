@@ -14,7 +14,7 @@ Acessando a workspace:
 docker exec -it test_britvic_workspace_1 bash
 ```
 
-**Nota:** Execute o comando ``composer install`` eos comandos do **artisan** dentro da workspace para instalar o projeto Laravel.
+**Nota:** Execute o comando ``composer install`` e os comandos do **artisan** dentro da workspace para instalar o projeto Laravel.
 
 ### Virtual Hosts
 
@@ -24,7 +24,11 @@ Execute o comando na pasta raiz deste repositório para criar o virtual host:
 cp docker/nginx/sites/britvic.conf.example docker/nginx/sites/britvic.conf
 ```
 
-Podemos mudar o virtual host no arquivo `britvic.conf` na pasta docker/nginx/sites.
+Podemos mudar o virtual host no arquivo `britvic.conf` na pasta docker/nginx/sites, alterando a variável `server_name`.
+
+```
+server_name seu-dominio-local.test;
+```
 
 Adicione o virtual host em seu arquivo de host, Exemplo:
 
