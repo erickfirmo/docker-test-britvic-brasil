@@ -14,7 +14,7 @@ Acessando a workspace:
 docker exec -it test_britvic_workspace_1 bash
 ```
 
-**Nota:** Execute o comando ``composer install`` dentro da workspace.
+**Nota:** Execute o comando ``composer install`` eos comandos do **artisan** dentro da workspace para instalar o projeto Laravel.
 
 ### Virtual Hosts
 
@@ -35,6 +35,8 @@ Adicione o virtual host em seu arquivo de host, Exemplo:
 ### Criando banco de dados
 
 Acesse o cliente phpMyAdmin para criar seu banco de dados http://localhost:8081/
+
+**Servidor:** mysql
 
 **Banco de dados padrão:** test_britvic
 
