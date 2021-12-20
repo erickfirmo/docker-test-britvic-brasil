@@ -2,10 +2,10 @@
 
 ### Uso
 
-Entre na pasta docker e digite o seguinte comando no terminal:
+Entre na pasta **docker** e digite o seguinte comando no terminal:
 
 ```sh
-docker-compose up -d nginx mysql phpmyadmin
+cp env.example .env & docker-compose up -d nginx mysql phpmyadmin
 ```
 
 Acessando a workspace:
@@ -14,9 +14,11 @@ Acessando a workspace:
 docker exec -it test_britvic_workspace_1 bash
 ```
 
+**Nota:** Execute o comando ``composer install`` dentro da workspace.
+
 ### Virtual Hosts
 
-Execute o comando na pasta raíz do projeto para criar o virtual host:
+Execute o comando na pasta raiz deste repositório para criar o virtual host:
 
 ```sh
 cp docker/nginx/sites/britvic.conf.example docker/nginx/sites/britvic.conf
