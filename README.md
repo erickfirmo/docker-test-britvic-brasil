@@ -1,5 +1,14 @@
 # docker-test-britvic-brasil
 
+### Clonando o repositório
+
+Digite em seu terminal para clonar o projeto com seus submodulos:
+
+```sh
+git clone --recurse-submodules git@github.com:erickfirmo/docker-test-britvic-brasil.git
+```
+
+
 ### Uso
 
 Entre na pasta **docker** e digite o seguinte comando no terminal:
