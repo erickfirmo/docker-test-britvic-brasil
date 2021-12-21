@@ -11,13 +11,13 @@ git clone --recurse-submodules git@github.com:erickfirmo/docker-test-britvic-bra
 
 ### Uso
 
-Entre na pasta **docker** e digite o seguinte comando no terminal:
+Abra a pasta **docker** pelo terminal e digite o seguinte comando:
 
 ```sh
 cp .env.example .env && docker-compose up -d nginx mysql phpmyadmin
 ```
 
-Acessando a workspace:
+Acesse a workspace:
 
 ```sh
 docker exec -it test_britvic_workspace_1 bash
@@ -33,13 +33,13 @@ Execute o comando na pasta raiz deste repositório para criar o virtual host:
 cp docker/nginx/sites/britvic.conf.example docker/nginx/sites/britvic.conf
 ```
 
-Por padrão, podemos acessar o projeto em http://britvic.test/. Podemos mudar o virtual host no arquivo `britvic.conf` na pasta docker/nginx/sites, alterando a variável `server_name`.
+Por padrão, podemos acessar o projeto em http://britvic.test/. Podemos mudar o virtual host alterando a variável de ambiente `server_name` no arquivo `britvic.conf`, localizado na pasta docker/nginx/sites.
 
 ```
 server_name seu-dominio-local.test;
 ```
 
-Adicione o virtual host em seu arquivo de host, Exemplo:
+Adicione o virtual host em seu arquivo de hosts. Exemplo:
 
 ```
 127.0.0.1 britvic.test
